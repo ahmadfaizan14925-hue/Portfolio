@@ -169,3 +169,23 @@ button:nth-child(2):hover{
 .navlist li a:hover{
     color:#3877ff;
 }
+@media (max-width: 768px) {
+    .protfolio-container {
+        flex-direction: column;
+    }
+    
+    .left-container {
+        width: 100%;
+        min-height: auto;
+        padding: 2rem;
+    }
+    
+    .right-container {
+        width: 100%;
+        min-height: 50vh;
+    }
+    
+    .design {
+        display: none;
+    }
+}
